@@ -1,2 +1,4 @@
 # Lab-Assignments
 This repository contains all the lab assignments
+
+Lab-Assignment-1 : https://github.com/MalineniAnusha/Lab-Assignments/wiki/Lab-Assignment-1
