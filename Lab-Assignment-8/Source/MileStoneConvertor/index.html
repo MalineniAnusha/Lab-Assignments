@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Convert your distance</title>
+    <div class="container">
+        <div class="bg-primary" style="text-align: center;font-family: Arial; color: white"><h1>CONVERT YOUR DISTANCE</h1></div>
+    </div>
+
+</head>
+<body ng-app=calculate>
+<div ng-controller=calculatectrl>
+    <div class="container" style="width:400px; margin:0 auto;padding-left: 12%">
+
+        <label style="color:white;font-size:x-large;">Enter the distance in kilometers : </label>
+        <br><br>
+        <input style="margin:0 auto;" type="number" class="form-control" id="days" ng-model="h"/>
+        <br><br>
+        <button class="btn btn-success" ng-click="bmi()">CONVERT</button>
+    </div>
+
+    <br><br>
+
+    <div class="card" align="center" style="margin:0 auto;">
+        <div class="form-group">
+            <br><br>
+
+            <label style="color:black;font-size:x-large;">In miles : </label>
+        <input type="number" class="form-control"id="hours"/>
+        <br><br>
+            <label style="color:black;font-size:x-large;">In yards : </label>
+
+            <input type="number" class="form-control" id="sec"/>
+        <br><br>
+            <label style="color:black;font-size:x-large;">In feet : </label>
+
+            <input type="number" class="form-control" id="minutes"/>
+        </div>
+    </div>
+        <!--</div>-->
+        <!--<div class="form-group"> <label for="weight"></label>-->
+        <!--<input type="number" class="form-control" placeholder="Enter Weight in kg" id="weight" ng-model="w">-->
+        <!--</div>-->
+        <br><br>
+    <!--<div class="centered">-->
+    <!--<button class="btn btn-success" ng-click="bmi()" style="background-color: red;">CONVERT</button>-->
+    <!--</div>-->
+    <!--<div class="container">-->
+    <!--<p ng-model=cal>-->
+    <!--<br><br>-->
+
+    <!--<div class="bg-danger">Your BMI&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp&nbsp{{cal.BMI}} kg/m<sup>2</sup></div><br>-->
+    <!--<div class="bg-success">Your Ideal Weight:&nbsp&nbsp{{cal.Ideal}} kg</div><br>-->
+    <!--<div class="bg-warning">Your Weight Status:&nbsp&nbsp{{cal.Status}}</div><br>-->
+
+
+    <!--</p>-->
+    <!--</div>-->
+</div>
+</body>
+</html>
